@@ -21,7 +21,7 @@ app.use(
 
 app.use(cors({ origin: true }));
 
-app.use(decodeJWT);
+// app.use(decodeJWT);
 
 app.get('/', (req, res) => {
   return res.send('Hello World!');
